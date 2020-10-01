@@ -1,4 +1,4 @@
-> Deployed [here](https://dev-camper-rrr.herokuapp.com/) (free dynos from heroku, so API calls are super slow)
+> Deployed [here](https://dev-camper-rrg.herokuapp.com/) (free dynos from heroku AND goes thru the gql endpoint, so API calls are super slow)
 
 ## **Dev Camper Client with GraphQL**
 
