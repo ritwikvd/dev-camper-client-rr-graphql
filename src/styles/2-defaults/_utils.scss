@@ -1,0 +1,84 @@
+.cursor {
+	&-def {
+		cursor: default;
+	}
+
+	&-pointer {
+		cursor: pointer;
+		@include hover;
+	}
+}
+
+.alert-container {
+	position: relative;
+
+	div {
+		@include alert-animation;
+		position: absolute;
+		top: 1.5rem;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.pos {
+	&-fixed {
+		position: fixed;
+		width: 100%;
+	}
+}
+
+.loading {
+	font-weight: 1000;
+	font-style: oblique 35deg;
+	align-self: center;
+	justify-self: center;
+}
+
+.none {
+	display: none !important;
+}
+
+.hover {
+	@include hover;
+}
+
+.red {
+	color: #dc3545;
+}
+
+.green {
+	color: #28a745;
+}
+
+.reduce-opa {
+	opacity: 0.5;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.mb {
+	margin-bottom: 1rem;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.place-below {
+	z-index: -1;
+}
+
+.image-container {
+	width: 225px;
+	display: grid;
+	grid-template: 1fr / 1fr;
+	justify-self: start;
+
+	> * {
+		grid-row: 1 /-1;
+		grid-column: 1 /-1;
+	}
+}
